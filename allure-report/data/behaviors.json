@@ -1,0 +1,56 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "verify whether contact us form with invalid email field gives proper validation message",
+    "uid" : "698780223f5cd146",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646774342063,
+      "stop" : 1646774346114,
+      "duration" : 4051
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-99.0.4844.51" ]
+  }, {
+    "name" : "verify contact us form with valid entries",
+    "uid" : "a53bf70d7dab6727",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646774346114,
+      "stop" : 1646774347759,
+      "duration" : 1645
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-99.0.4844.51" ]
+  }, {
+    "name" : "verify contact us form with upload file entries",
+    "uid" : "e7dba4d0ffeea604",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1646774347759,
+      "stop" : 1646774348650,
+      "duration" : 891
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-99.0.4844.51" ]
+  } ]
+}

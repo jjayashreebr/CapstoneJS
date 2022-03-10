@@ -1,0 +1,60 @@
+{
+  "uid" : "b106968f5294bde7",
+  "name" : "verify contact us form with valid entries",
+  "fullName" : "AutomationExercise Contactus form automation.verify contact us form with valid entries",
+  "historyId" : "53f53e0f232307ad5302a22edd09e210",
+  "time" : {
+    "start" : 1646774081794,
+    "stop" : 1646774083246,
+    "duration" : 1452
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "AutomationExercise Contactus form automation"
+  }, {
+    "name" : "testClass",
+    "value" : "AutomationExercise Contactus form automation"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify contact us form with valid entries"
+  }, {
+    "name" : "package",
+    "value" : "AutomationExercise Contactus form automation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.51"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b106968f5294bde7.json",
+  "parameterValues" : [ "chrome-99.0.4844.51" ]
+}

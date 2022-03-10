@@ -1,15 +1,19 @@
 const ContactUsPage = require("../pages/contactus.page");
 const SuccessPage = require("../pages/success.page");
+const fs=require('fs')
+let credentials = JSON.parse(fs.readFileSync('test/testData/TestData.json'))
+let invalidCredentials = JSON.parse(fs.readFileSync('test/testData/TestInValidEmailData.json'))
 
 describe("AutomationExercise Contactus form automation", () => {
+  invalidCredentials.forEach( ({username,email,subject,message})=> {
   it("verify whether contact us form with invalid email field gives proper validation message", async () => {
     await ContactUsPage.open();
 
     await ContactUsPage.contactUs(
-      "tomsmith",
-      "Supersuper.com",
-      "hello",
-      "hello how are you?"
+      username,
+      email,
+      subject,
+      message
     );
 
     var msg = await browser.execute(
@@ -18,16 +22,17 @@ describe("AutomationExercise Contactus form automation", () => {
     );
     console.log("****************" + msg);
     expect(msg).toHaveText("Please include an '@' in the email address.");
-  });
+  });})
 
+  credentials.forEach( ({username,email,subject,message})=> {
   it("verify contact us form with valid entries", async () => {
     await ContactUsPage.open();
 
     await ContactUsPage.contactUs(
-      "tomsmith",
-      "Super@super.com",
-      "hello",
-      "hello how are you?"
+      username,
+      email,
+      subject,
+      message
     );
 
     const alertText = await browser.getAlertText();
@@ -39,7 +44,8 @@ describe("AutomationExercise Contactus form automation", () => {
     expect(await SuccessPage.successMsg).toHaveText(
       "Success! Your details have been submitted successfully."
     );
-  });
+  })})
+
   it("verify contact us form with upload file entries", async () => {
     await ContactUsPage.open();
 

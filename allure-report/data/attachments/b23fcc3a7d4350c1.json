@@ -1,0 +1,9 @@
+{
+  "script": "return arguments[0].validationMessage;",
+  "args": [
+    {
+      "element-6066-11e4-a52e-4f735466cecf": "970d6581-e3d7-406d-bb36-e391b2259a00",
+      "ELEMENT": "970d6581-e3d7-406d-bb36-e391b2259a00"
+    }
+  ]
+}

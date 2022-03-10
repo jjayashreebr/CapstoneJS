@@ -1,0 +1,31 @@
+[ {
+  "uid" : "698780223f5cd146",
+  "name" : "verify whether contact us form with invalid email field gives proper validation message",
+  "time" : {
+    "start" : 1646774342063,
+    "stop" : 1646774346114,
+    "duration" : 4051
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a53bf70d7dab6727",
+  "name" : "verify contact us form with valid entries",
+  "time" : {
+    "start" : 1646774346114,
+    "stop" : 1646774347759,
+    "duration" : 1645
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e7dba4d0ffeea604",
+  "name" : "verify contact us form with upload file entries",
+  "time" : {
+    "start" : 1646774347759,
+    "stop" : 1646774348650,
+    "duration" : 891
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,60 @@
+{
+  "uid" : "6d1feb09976eab4b",
+  "name" : "verify whether contact us form with invalid email field gives proper validation message",
+  "fullName" : "AutomationExercise Contactus form automation.verify whether contact us form with invalid email field gives proper validation message",
+  "historyId" : "2597959cd4534946f47a6d2db467d647",
+  "time" : {
+    "start" : 1646774078606,
+    "stop" : 1646774081793,
+    "duration" : 3187
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "AutomationExercise Contactus form automation"
+  }, {
+    "name" : "testClass",
+    "value" : "AutomationExercise Contactus form automation"
+  }, {
+    "name" : "testMethod",
+    "value" : "verify whether contact us form with invalid email field gives proper validation message"
+  }, {
+    "name" : "package",
+    "value" : "AutomationExercise Contactus form automation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.51"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6d1feb09976eab4b.json",
+  "parameterValues" : [ "chrome-99.0.4844.51" ]
+}
